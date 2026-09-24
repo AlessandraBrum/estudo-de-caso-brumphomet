@@ -1,3 +1,4 @@
+// Rolagem por seção
 const sections = document.querySelectorAll(".case-section");
 const navLinks = document.querySelectorAll(".site-nav a");
 
@@ -19,3 +20,22 @@ const observer = new IntersectionObserver(
 );
 
 sections.forEach((section) => observer.observe(section));
+
+
+// Menu hamburguer
+const hamburger = document.querySelector(".hamburger");
+const siteNav = document.querySelector(".site-nav");
+
+// Abre e fecha o menu lateral ao clicar no botão de três linhas / "X"
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  siteNav.classList.toggle("open");
+});
+
+// Fecha o menu automaticamente ao clicar em qualquer palavra/link do menu
+navLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    hamburger.classList.remove("active"); // Volta o botão para as 3 linhas
+    siteNav.classList.remove("open");     // Recolhe o menu lateral para a direita
+  });
+});
