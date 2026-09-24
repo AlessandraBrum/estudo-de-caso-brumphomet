@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Estudo de caso — Transmissões ao vivo">
+  <title>Transmissões ao vivo — Estudo de caso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!--
+    HEADER FIXO/STICKY
+    Ele permanece no topo enquanto o conteúdo rola.
+    No mobile vira uma barra horizontal compacta.
+  -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Voltar ao início">
+      </a>
+
+      <div class="header-title" id="#top">
+        <span class="eyebrow">Estudo de caso</span>
+        <strong>ALESSANDRA BRUM</strong>
+      </div>
+
+      <nav class="site-nav" aria-label="Navegação do estudo de caso">
+        <a href="#home">Home</a>
+        <a href="#visao-geral">Visão geral</a>
+        <a href="#tipografia">Identidade</a>
+        <a href="#zero">Do zero</a>
+        <a href="#musical">Apelo emocional</a>
+        <a href="#configuracoes">Configurações</a>
+        <a href="#retorno">Retorno</a>
+        <a href="#interatividade">Interatividade</a>
+        <a href="#prototipo">Protótipo</a>
+        <a href="#aprendizados">Aprendizados</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content container">
+        <p class="eyebrow">Projeto de UX/UI</p>
+
+        <img src="imagens/logocommorcegos.png">
+        <h1>Transmissões ao vivo</h1>
+        <p class="hero-description">
+          Do zero à monetização: Construção de uma comunidade<br> através de transmissões ao vivo na Twitch.
+
+        </p>
+
+        <dl class="meta">
+          <div>
+            <dt>Campo de estudo</dt>
+            <dd>UX/UI Design</dd>
+          </div>
+          <div>
+            <dt>Projeto</dt>
+            <dd>Estudo de caso</dd>
+          </div>
+          <div>
+            <dt>Foco</dt>
+            <dd>Experiência do usuário e integração de ferramentas.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <div class="container content">
+
+      <section class="case-section" id="visao-geral">
+        <div class="section-heading tshadow">
+          <img src="/imagens/batemoji.svg" class="batemoji">
+          <h2>Visão geral</h2>
+        </div>
+
+        <div class="case-card">
+          <div class="prose">
+            <p class="pident">
+              Neste estudo de caso, analiso o desenvolvimento de um overlay/template para o meu canal de livestreams
+              (transmissões ao vivo) da Twitch, chamado “<span class="cpurple">Brumphomet”</span>, cujo nome deriva da
+              junção de <span class="cpurple">Brum</span> + <span class="cpurple">Baphomet</span>,
+              entidade ligada à <span class="cpurple">alquimia</span> e à <span class="cpurple">renovação</span>
+              (girando em torno do tema “<i><span class="cpurple">Solve et Coagula</span></i>" = do latim
+              “<span class="cpurple">dissolver e coagular</span>”, destruir para reconstruir - ou seja, trabalhando com
+              constrastes). Para este
+              template, foi preciso capturar a personalidade contrastante da streamer.
+              A proposta partiu de uma ideia simples: fofinha e brutal ao mesmo tempo. Para representar esse contraste,
+              utilizei principalmente o rosa e o preto, explorando a tensão entre uma estética delicada e outra mais
+              agressiva.
+            </p>
+
+
+            <h3>Identidade:</h3>
+            <p class="pident">
+              Todos os detalhes do overlay foram pensados com base da personalidade da apresentadora da identidade da
+              Live, desde os emojis, ícones utilizados, fundos de cenas, cores e contrastes temáticos.
+
+
+
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="case-section" id="tipografia">
+        <div class="section-heading tshadow">
+          <img src="/imagens/batemoji.svg" class="batemoji">
+          <h2>Tipografia e cores</h2>
+        </div>
+
+        <div class="case-card">
+          <div class="prose">
+            <p class="pident">
+              Em questão de tipografia, utilizei uma fonte gratuita para seguir a intenção de baixo investimento
+              financeiro inicial. Para isto, durante as pesquisas, a fonte que melhor se encaixou no projeto foi a
+              “<span class="cpurple">ArtDystopia II</span>”, por remeter a logotipos de bandas de black metal, com um
+              visual desconectado e
+              ramificado, lembrando chamas, rasgos, raízes e outros tipos de conceitos encontrados dentro da subcultura
+              do gênero musical aqui abordado. Respeitando, claro, as cores escolhidas para o canal.
+            </p>
+            <h3>Referências:</h3>
+          </div>
+
+          <div class="type-showcase">
+            <div class="type-sample">
+              <p>
+                <img src="/imagens/logodarkfuneral.png" class="bandshadow1"><br>
+                <span class="bandcaption acenter">Logo da banda "Dark Funeral"<br>
+                  Gênero: Black Metal</span>
+              </p>
+            </div>
+
+
+            <div class="type-sample">
+              <p>
+                <img src="/imagens/logorottingchrist.png" class="bandshadow2"><br><br>
+                <span class="bandcaption  acenter">
+                  Logo da banda "Rotting Christ"<br>
+                  Gênero: Black Metal</span>
+              </p>
+            </div>
+          </div>
+
+
+          <h3>Cores:</h3>
+          <div class="color-grid">
+            <div class="color-item">
+              <span class="swatch swatch-dark"></span>
+              <strong>#111111</strong>
+              <small>Base</small>
+            </div>
+            <div class="color-item">
+              <span class="swatch swatch-purple"></span>
+              <strong>#8F075A</strong>
+              <small>Secundária</small>
+            </div>
+            <div class="color-item">
+              <span class="swatch swatch-pink"></span>
+              <strong>#E51C78</strong>
+              <small>Destaque</small>
+            </div>
+            <div class="color-item">
+              <span class="swatch swatch-white"></span>
+              <strong>#FFFFFF</strong>
+              <small>Realces</small>
+            </div>
+          </div>
+
+          <h3>Telas de aviso da live:</h3>
+          <div class="media-grid">
+            <figure class="media">
+              <div class="media-placeholder ratio-wide">
+                <span><img src="/imagens/printliveonline.png"></span>
+              </div>
+              <figcaption>Tela de espera.</figcaption>
+            </figure>
+            <figure class="media">
+              <div class="media-placeholder ratio-wide">
+                <span><img src="/imagens/printliveoffline.png"></span>
+              </div>
+              <figcaption>Tela de encerramento.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="case-section" id="zero">
+        <div class="section-heading tshadow">
+          <img src="/imagens/batemoji.svg" class="batemoji">
+          <h2>Começando do zero</h2>
+        </div>
+
+        <div class="case-card">
+          <div class="prose">
+            <h3>Soluções inteligentes</h3>
+            <p class="pident">
+              Como anteriormente dito, o orçamento inicial era zero. Não havia webcam ou microfone além do microfone
+              integrado do headphone. A solução foi adaptar o celular como webcam, o que não é o ideal, mas era a
+              solução que encontrada na época. Para isto, utilizei o software gratuito “Irium webcam”, até que atingisse
+              retorno financeiro com as lives para que comprasse uma webcam de fato. Quando consegui a quantia
+              necessária através de donates/doações e de pagamentos da plataforma, uma webcam e um microfone de melhor
+              qualidade foram adquiridos. Investimento em um projeto é capaz de trazer ainda mais retorno não somente
+              financeiro, mas também em questão de realização pessoal.
+            </p>
+          </div>
+
+          <div class="media-grid">
+
+            <figure class="media">
+              <div class="media-placeholder ratio-wide">
+                <span><img src="/imagens/siteiriunwebcam.png"></span>
+              </div>
+
+              <figcaption>Problema: Não tinha webcam.</figcaption>
+            </figure>
+
+            <figure class="media">
+              <div class="media-placeholder ratio-wide">
+                <span><img src="/imagens/livetocandoviolao.png"></span>
+              </div>
+
+              <figcaption>Solução: Substituição de hardware através de um software. Aplicativo para PC que transforma a
+                câmera do celular em uma câmera que o computador reconhece. Viabilizou o início do canal mesmo sem ter
+                uma câmera.</figcaption>
+            </figure>
+
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="case-section" id="musical">
+        <div class="section-heading tshadow">
+          <img src="/imagens/batemoji.svg" class="batemoji">
+          <h2>Apelo emocional: Nostalgia</h2>
+        </div>
+
+        <div class="case-card">
+          <div class="prose">
+            <h3>Quadro musical: Rádio JBrum FM</h3>
+            <p class="pident">
+              A ideia inicial era fazer lives de games, mas seria interessante a possibilidade de realizar transmissões
+              também sobre maquiagem e conversas informais na categoria “Just chatting”. Para as lives de conversa,
+              decidi atrair o público através do fator nostalgia. E o que seria melhor de mexer com a emoção das pessoas
+              do que a música?</p>
+            <p class="pident">
+              JBrum FM - Quadro onde a Streamer (eu), que se apresenta sempre pelo sobrenome “Brum”, faz um trocadilho
+              com o sobrenome e, ao mesmo tempo, uma alusão à JB FM, uma emissora de rádio brasileira sediada no Rio de
+              Janeiro. Neste quadro são guiadas conversas com os espectadores enquanto são assistidos videoclipes e o
+              público tem pedidos musicais atendidos, assim como geralmente é feito em rádios ou como era feito canais
+              televisivos como a MTV e a TVZ.</p>
+
+            <p class="pident">
+              Também desenvolvi uma logo similar à original para trazer a sensação de nostalgia aos inscritos do canal e
+              homenagear a radio JB FM, fazendo uma brincadeira bem-humorada, como se eu fosse radialista.
+            </p>
+
+          </div>
+
+
+
+          <div class="type-showcase">
+            <div class="type-sample">
+              <p>
+                <img src="/imagens/logojbfm.png" class="logoresize1"><br>
+                <span class="bandcaption acenter">Logo da Rádio original<br> de referência: JB FM</span>
+              </p>
+            </div>
+
+
+            <div class="type-sample">
+              <p>
+                <img src="/imagens/logojbrumfm.png" class="logoresize2"><br>
+                <span class="bandcaption  acenter">
+                  Logo da Rádio fictícia<br>JBrum FM</span>
+              </p>
+            </div>
+          </div>
+
+          <h3>Estrutura da Scene no Overlay - Streamlabs</h3>
+          <figure class="media">
+            <div class="media-placeholder ratio-wide">
+              <span><img src="/imagens/esquemascenejbrumfm.png"></span>
+            </div>
+          </figure>
+        </div>
+
+
+        <section class="case-section" id="configuracoes" style="margin-top: 6rem !important;">
+          <div class="section-heading tshadow">
+            <img src="/imagens/batemoji.svg" class="batemoji">
+            <h2>Configurações</h2>
+          </div>
+
+          <div class="case-card">
+            <div class="prose">
+              <h3>Organização</h3>
+              <p class="pident">
+                Procuro nomear as camadas de acordo com as funções das mesmas para me guiar com precisão sempre que
+                precisar fazer modificações, tanto em questão de pastas quanto em questão de camadas. Também aplico
+                filtros de som e imagem de acordo com a necessidade de cada caso (hardwares e dispositivos - microfones,
+                câmeras, etc).
+              </p>
+
+              <figure class="media">
+                <div class="media-placeholder ratio-wide">
+                  <span><img src="/imagens/monitoramento0.png"></span>
+                </div>
+              </figure>
+            </div>
+
+            <div class="media-grid">
+              <figure class="media">
+                <div class="media-placeholder ratio-square">
+                  <span><img src="/imagens/monitoramento2.png"></span>
+                </div>
+              </figure>
+
+
+
+              <figure class="media">
+                <div class="media-placeholder ratio-square">
+                  <span><img src="/imagens/monitoramento3.png"></span>
+
+                </div>
+              </figure>
+            </div>
+
+            <h3>Monitoramento</h3>
+
+            <p class="pident">
+
+              Apesar de haver regras explícitas no chat sendo exibidas ao clicar antes dos usuários enviarem mensagens,
+              é preciso que haja um monitoramento. Utilizo o Nighbot que envia mensagens de tempos em tempos lembrando
+              às pessoas das regras de boa convivência e também há moderadores do chat (pessoas de confiança com poderes
+              de excluir mensagens, banir usuários, bloquear pessoas, etc).
+
+            </p>
+            <p class="pident">
+
+              O monitoramento da transmissão em si também acontece por responsabilidade da streamer, enquanto transmite,
+              em um segundo monitor, através do próprio Streamlabs e também através do navegador, com um plug-in de
+              carregamento automático a cada X segundos, para evitar que o Streamlabs “deixe passar” mensagens dos
+              espectadores sem querer, fucionando como uma “prova real”, tendo assim, 2 fontes de monitoramento do chat
+              e da transmissão. O carinho e a atenção aos detalhes é o diferencial que fideliza as pessoas.
+
+            </p>
+
+          </div>
+        </section>
+
+
+
+        <section class="case-section" id="retorno">
+          <div class="section-heading tshadow">
+            <img src="/imagens/batemoji.svg" class="batemoji">
+            <h2>Retorno financeiro e investimento</h2>
+          </div>
+
+          <div class="case-card">
+            <h3>Mostrando na prática os investimentos feitos com o retorno financeiro:</h3>
+            <p class="pident">
+              Nesta seção, vamos acompanhar um pouco da evolução inicial da live em questão de dispositivos físicos.
+              Aqui estão alguns dos resultados:
+            </p>
+
+
+
+
+            <figure class="media">
+              <div class="type-sample">
+                <div class="media-placeholder ratio-free">
+                  <span><img src="/imagens/livepix1.png"></span>
+                </div>
+                <span class="bandcaption">Registros na plataforma “Livepix”, usada para anonimizar meus dados pessoais
+                  como destinatário em transferências pix e gerenciar as doações dos espectadores (em troca de exibição
+                  de mensagens na tela em tempo real).</span>
+            </figure>
+
+            <figure class="media">
+              <div class="type-sample">
+                <div class="media-placeholder ratio-free">
+                  <span><img src="/imagens/livepix2.png"></span>
+                </div>
+                <span class="bandcaption">Saques realizados através da plataforma Livepix.</span>
+            </figure>
+
+
+            <figure class="media">
+              <div class="type-sample">
+                <div class="media-placeholder ratio-free">
+                  <span><img src="/imagens/printpagamentotwitch.png"></span>
+                </div>
+
+                <span class="bandcaption">Pagamentos realizados em dólar pela plataforma Twitch devido ao contrato de
+                  Streamer Afiliado.</span>
+            </figure>
+
+
+            <p class="pident">
+              A organização dos instrumentos físicos também se mostra importante em qualquer tipo de operação, não
+              somente
+              em transmissões ao vivo. Para organizar as cenas da live utilizei um Stream Deck (<span
+                class="cpurple">comprado com o
+                retorno financeiro gerado pelo engajamento dos espectadores da live</span>) e configurei com um software
+              da
+              própria
+              marca
+              do equipamento. Criei no Streamlabs todas as “cenas” (telas) que eu precisava para interagir com os
+              espectadores da forma que eu gostaria inicialmente e, conforme foi surgindo a necessidade ao longo das
+              transmissões, fui criando as demais cenas para surprir a demanda da interatividade que eu gostaria de
+              ter
+              com as pessoas que assistiam às lives.
+
+            </p>
+
+            <p class="pident">
+              Por exemplo, para o “quadro” JBrum FM, configurei vinhetas já prontas de internet e outras eu mesma
+              gravei
+              com a minha voz, assim como as tradicionais vinhetas de estações rádios para trazer a sensação de
+              nostalgia,
+              mesmo que as pessoas estivessem assistindo uma transmissão em vídeo pela internet ao invés de estarem
+              ouvindo um rádio AM/FM.
+            </p>
+
+            <p class="pident">
+              Para poder me conectar um pouco mais eficientemente com o público, também configurei alguns memes
+              atemporais
+              e outros um pouco mais contemporâneos para soltar esporadicamente durante as transmissões, em oposição
+              de
+              apenas me expressar com palavras. Memes geram um elevado grau de identificação e foram muito bem
+              recebidos
+              pelos inscritos.
+            </p>
+
+            <p class="pident">
+              Da mesma forma que posso usar estes memes em formato de som, os espectadores também podem. Porém, para
+              isto,
+              precisam resgatar pontos de recompensa. Estes pontos são resgatados ao assistir as lives e são uma
+              usabilidade da própria plataforma (Twitch) escolhida por mim para realizar as transmissões. Fiz
+              questão de
+              disponibilizar todos os sons que uso e alguns outros extras exclusivos dos espectadores, hospedar em
+              uma
+              plataforma própria para estes arquivos, editar as partes que interessavam para um tamanho/tempo que
+              não
+              atrapalhasse o andamento da transmissão, mas que marcasse a conversa de alguma forma e, ainda assim,
+              estimulasse as pessoas a assistir a live para coletar os pontos e resgatar estas recompensas para
+              interagir.
+            </p>
+
+
+
+            <div class="media-grid">
+              <figure class="media">
+                <div class="media-placeholder ratio-square">
+                  <span><img src="/imagens/streamdeck1.png"></span>
+                </div>
+                <figcaption>Macros de scenes do overlay.</figcaption>
+              </figure>
+
+              <figure class="media">
+                <div class="media-placeholder ratio-square">
+                  <span><img src="/imagens/streamdeck2.png"></span>
+                </div>
+                <figcaption>Vinhetas da JBrum FM.</figcaption>
+              </figure>
+
+
+              <figure class="media">
+                <div class="media-placeholder ratio-square">
+                  <span><img src="/imagens/streamdeck3.png"></span>
+                </div>
+                <figcaption>Memes para interagir com os espectadores.</figcaption>
+              </figure>
+
+
+              <figure class="media">
+                <div class="media-placeholder ratio-square">
+                  <span><img src="/imagens/webcam.png"></span>
+                </div>
+                <figcaption>Webcam Logitech C920, comprada com o dinheiro dos donates (doações) das lives.</figcaption>
+              </figure>
+
+
+
+            </div>
+
+
+
+
+        </section>
+
+
+        <section class="case-section" id="interatividade">
+          <div class="section-heading tshadow">
+            <img src="/imagens/batemoji.svg" class="batemoji">
+            <h2>Interatividade e engajamento</h2>
+          </div>
+
+          <div class="case-card">
+            <div class="prose">
+
+              <h3>Integração com ferramentas</h3>
+
+
+              <p class="pident">
+                Da mesma forma que posso usar memes em formato de som tocados diretamente do computador e acionados do
+                Streamdeck, os espectadores também podem resgatar sons durante a live. Porém, para isto, precisam
+                resgatar
+                pontos de recompensa. Estes pontos são resgatados ao assistir as lives e são uma usabilidade da
+                própria
+                plataforma (Twitch) escolhida por mim para realizar as transmissões. Fiz questão de disponibilizar
+                todos
+                os sons que uso e alguns outros extras exclusivos dos espectadores, hospedar em uma plataforma própria
+                para estes arquivos, editar as partes que interessavam para um tamanho/tempo que não atrapalhasse o
+                andamento da transmissão, mas que marcasse a conversa de alguma forma e, ainda assim, estimulasse as
+                pessoas a assistir a live para coletar os pontos e resgatar estas recompensas para interagir.
+              </p>
+
+              <p class="pident"> Para trazer o máximo de interatividade para a transmissão ao vivo, utilizei
+                ferramentas
+                integradas como Tryggerfire, StreamElements, Nighbot, Stream-CC, entre outros. </p>
+
+
+              <figure class="media">
+                <div class="media-placeholder acenter ratio-sqresize">
+                  <span><img src="/imagens/capiropoints.png"></span>
+                </div>
+                <span class="bandcaption acenter">Sistema de resgate de pontos.</span>
+              </figure>
+
+
+              <div class="type-showcase">
+                <p class="pident">
+                  • Triggerfyre (Tryggerfire): Gerencia alertas interativos de som e vídeo na tela. Permite que os
+                  espectadores ativem memes, clipes de áudio ou animações diretamente no seu streaming usando pontos do
+                  canal da Twitch ou comandos de chat, aumentando muito o engajamento direto.
+                </p>
+
+
+                <p class="pident">
+                  • StreamElements: Funciona como
+                  uma plataforma tudo-em-um para streamers. Cuida do gerenciamento de sobreposições (overlays) na
+                  nuvem, bots de chat, alertas de novos seguidores/subscrições, além de oferecer sistemas de
+                  fidelidade
+                  (pontos da loja do canal) e páginas de doação.
+                </p>
+
+
+                <p class="pident">
+                  • Nightbot: Atua como um moderador automático e utilitário
+                  de chat. É focado em automatizar tarefas no chat, como responder a perguntas frequentes com
+                  comandos
+                  personalizados (ex: !redes), filtrar palavras ofensivas, evitar spam e gerenciar sorteios ou
+                  pedidos de
+                  música.
+                </p>
+
+
+                <p class="pident">
+                  • Stream-CC: Fornece legendas ocultas automáticas e em tempo real (Closed Captions) para a sua
+                  transmissão. Ele transcreve a sua voz enquanto você fala, ajudando na acessibilidade para
+                  pessoas com
+                  deficiência auditiva ou para quem assiste à live sem áudio.
+                </p>
+
+              </div>
+
+              <h3>Estratégias de engajamento</h3>
+              <p class="pident"> Com o passar do tempo, comecei a fazer transmissões de um jogo chamado muito famoso e
+                premiado chamado “Baldur’s Gate 3”, um RPG (Role-playing game), que permite integração com a Twitch.
+                Desta
+                forma, os espectadores conseguem passar o mouse por cima do meu vídeo em seus navegadores e visualizar
+                várias informações de meus personagens durante o jogo, como a ficha, o inventário, as condições, as
+                missões, dentre outros, além de disponibilizar enquetes durante os diálogos.
+              </p>
+
+
+            </div>
+
+
+            <figure class="media">
+              <div class="type-sample">
+                <div class="media-placeholder ratio-video">
+                  <span><img src="/imagens/bg3-1.png"></span>
+                </div>
+                <span class="bandcaption">Exemplo de votação para fazer com que os espectadores participem em uma
+                  escolha no jogo "Baldur's Gate 3", da <i>Larian Studios</i>.</figcaption>
+            </figure>
+
+
+
+
+            <figure class="media">
+              <div class="type-sample">
+                <div class="media-placeholder ratio-video">
+                  <span><img src="/imagens/twitchhojeemdia.png"></span>
+                </div>
+                <span class="bandcaption">Como está a página atualmente (setembro de 2026).</figcaption>
+            </figure>
+
+          </div>
+        </section>
+
+    </div>
+
+
+
+
+
+    <div class="container content">
+
+      <section class="case-section" id="prototipo">
+        <div class="section-heading tshadow">
+          <img src="/imagens/batemoji.svg" class="batemoji">
+          <h2>Protópipo deste estudo de caso</h2>
+        </div>
+
+        <div class="case-card">
+          <div class="prose">
+            <p class="pident">
+              O protótipo de alta fidelidade deste estudo de caso está disponível no <a
+                href="https://www.figma.com/design/fXuQ8kJrxrcjQbY4glrwgf/Portf%C3%B3lio---Alessandra-Brum---Caso--Brumphomet--Lives-na-Twitch.tv-?node-id=2092-27&t=RpsiWjJjl8a0ZAa1-0"
+                target="_blank">Figma</a> para a sua exploração detalhada.
+            </p>
+
+
+            <h3>Identidade:</h3>
+            <p class="pident">
+              Todos os detalhes do overlay foram pensados com base da personalidade da apresentadora da identidade da
+              Live, desde os emojis, ícones utilizados, fundos de cenas, cores e contrastes temáticos.
+
+
+
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <footer class="site-footer" id="aprendizados">
+    <div class="container">
+      <p class="eyebrow">Aprendizados</p>
+      <h2>O que este projeto trouxe à minha jornada</h2>
+      <p class="pident">
+        Com este caso, reforcei minha crença de que trabalho em equipe, tanto entre pessoas quanto entre plataformas, é
+        essencial para o desenvolvimento de um bom projeto. Durante a configuração deste overlay/template realizei
+        muitas pesquisas, assisti muitos vídeos e tutoriais, assim como entrei em contato com outros streamers e
+        consultei os espectadores das minhas lives, para que eu pudesse atingir o máximo de satisfação pessoal e
+        profissional e pudesse retornar isso para a comunidade que construímos jutnos.
+      </p>
+      <p class="pident">
+        Acredito, também, que um trabalho feito com esmero e pensado de forma estratégica pode trazer resultados muito
+        satisfatórios.
+      </p>
+      <a class="back-top pcenter" href="#top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+<footer class="footer-fixo">
+  <div class="footer-container">
+    <p class="footer-texto">Graduanda em Análise e Desenvolvimento de Sistemas e pós-graduanda em User
+      Experience.</p>
+
+    <div class="footer-redes">
+      <!--- Créditos - Ícones: iconfy --->
+      <!-- Twitch -->
+      <a href="https://www.twitch.tv/brumphomet" target="_blank" class="link-rede" aria-label="Twitch">
+        <svg viewBox="0 0 16 16" class="icone-svg">
+          <path
+            d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L15 7.714V0zm10 7.143-2.572 2.571H8.571L6.286 12V9.714H3.429V1.429h10.429zM12 3.571h-1.429v3.429H12zm-3.429 0H7.143v3.429h1.429z" />
+        </svg>
+      </a>
+
+      <!-- Behance -->
+      <a href="https://www.behance.net/alessandrabrum" target="_blank" class="link-rede" aria-label="Behance">
+        <svg viewBox="0 0 16 16" class="icone-svg">
+          <path
+            d="M4.654 3c.419 0 .822.056 1.208.167.386.112.724.275 1.014.491.29.215.522.489.696.82.174.331.262.723.262 1.174 0 .524-.12 1-.36 1.426a2.64 2.64 0 0 1-.987 1.014c.483.214.86.533 1.13.957.271.422.406.924.406 1.505 0 .524-.1.996-.301 1.414a3.1 3.1 0 0 1-.84 1.088c-.358.287-.778.508-1.258.664C4.145 14 3.613 14 3.039 14H0V3zm0 4.161c.427 0 .762-.094 1.004-.282.242-.188.363-.482.363-.883 0-.41-.121-.703-.363-.881-.242-.178-.577-.267-1.004-.267H1.36v2.313h3.294zm.23 4.412c.451 0 .809-.102 1.072-.307.263-.205.395-.539.395-.999 0-.442-.132-.767-.395-.975-.263-.207-.62-.311-1.072-.311h-3.52v2.592h3.52zm5.795-1.574c-.017.653.111 1.21.384 1.67.273.46.633.806 1.08.1.447-.706.792-1.22 1.034-1.542.242-.322.366-.632.373-.928H10.68zm5.27-.615c-.032-.733-.21-1.39-.533-1.97-.323-.581-.762-1.047-1.316-1.398-.554-.351-1.197-.527-1.927-.527-.723 0-1.37.168-1.942.505-.572.337-1.018.814-1.339 1.432-.32.617-.481 1.343-.481 2.176 0 .852.164 1.59.493 2.213.328.624.792 1.104 1.39 1.442.599.338 1.296.507 2.091.507.723 0 1.366-.134 1.93-.404.565-.27 1.026-.64 1.383-1.111.357-.472.569-1.006.635-1.602h-1.492a2.3 2.3 0 0 1-.77 1.19c-.352.263-.787.394-1.306.394-.576 0-1.043-.16-1.401-.482-.358-.322-.556-.786-.593-1.391h5.318zm-4.71-3.666h3.816v-.667h-3.816z" />
+        </svg>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/alessandrabrum/" target="_blank" class="link-rede" aria-label="LinkedIn">
+        <svg viewBox="0 0 16 16" class="icone-svg">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.126 2.4 3.834c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+        </svg>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/AlessandraBrum" target="_blank" class="link-rede" aria-label="GitHub">
+        <svg viewBox="0 0 16 16" class="icone-svg">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </svg>
+      </a>
+
+      <!--- Gmail -->
+      <a href="mailto:alessandrabrumcontato@gmail.com" class="link-rede" aria-label="Gmail">
+        <svg viewBox="0 0 16 16" class="icone-svg">
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm5.436-.189L16 11.801V4.697z" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+</html>
